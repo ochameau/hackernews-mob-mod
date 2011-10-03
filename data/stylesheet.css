@@ -1,0 +1,90 @@
+body {
+  font: 1em Helvetica,Georgia,serif,Times New Roman;
+  margin: 0;
+  padding: 0;
+}
+
+body>center>table {
+  width: 100%;
+  padding: 0;
+}
+body>center>table>tbody>tr table {
+  padding: 5px;
+}
+
+body>center>table>tbody>tr table tr {
+  background: white;
+  color: #222;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid #f0f0f0;
+}
+
+
+/* Number */
+body>center>table>tbody>tr table tr > td:nth-child(1) {
+  width: 0px;
+  max-width: 0px;
+  min-width: 0px;
+  overflow: hidden;
+}
+/* Title text */
+td.title {
+  padding: 5px 0 !important;
+}
+td.title > a {
+  font-size:16px;
+  font-weight: bold;
+}
+
+/* title website */
+.comhead {
+  display: block;
+}
+
+/* Up */
+body>center>table>tbody>tr table tr > td:nth-child(2) > center > a {
+  display: block;
+  margin: 0 5px;
+  width: 19px;
+  height: 24px;
+  border: 1px solid #ccc;
+  background-image: url('up.png');
+  border-radius: 4px;
+}
+td > center > a img{
+  display: none;
+}
+
+/* Down */
+td > center > span {
+  
+}
+
+.subtext {
+
+}
+
+/* score */
+.subtext > span {
+
+}
+
+/* by */
+.subtext > a:nth-child(2) {
+
+}
+
+/* comments */
+.subtext > a:nth-child(3) {
+  display: block;
+  width: 9em;
+  text-align:center;
+  height: 2em;
+  line-height: 2em;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 5px 0;
+}

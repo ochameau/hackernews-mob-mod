@@ -1,0 +1,10 @@
+{
+    "license": "MPL 1.1/GPL 2.0/LGPL 2.1", 
+    "name": "hackernews-mob-mod",
+    "contributors": [],
+    "author": "",
+    "version": "1.0",
+    "keywords": [],
+    "description": "Automatic modification of hacker news website to better fit mobile.",
+    "id": "hackernews-mob-mod"
+}
